@@ -3,7 +3,7 @@ package Test;
 import Test.MyLinkedList.Node;
 
 
-public class ReverseLinkedList {
+public class ReverseMyLinkedList {
 
     public static void main(String[] args) {
         MyLinkedList myList = new MyLinkedList();
@@ -47,7 +47,7 @@ public class ReverseLinkedList {
 
     public static Node recursiveReverseLinkedList(Node head) {
         Node first;
-        
+
         if (head == null || head.next == null)
             return head;
 
